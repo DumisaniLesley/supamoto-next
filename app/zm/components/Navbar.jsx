@@ -49,7 +49,7 @@ const Navbar = () => {
         <div class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center">
             <div class="flex flex-col md:flex-row md:mx-6">
                 {links.map((link) => (
-                    <Link href={link.url} key={link.id} className="my-2 text-md font-semibold transition-colors duration-300 transform  hover:text-orange-600 md:mx-4 md:my-0">{link.title}</Link>
+                    <Link href={link.url} key={link.id} className="my-2 text-md font-semibold transition-colors duration-300 transform  text-orange-600 hover:text-blue-500 md:mx-4 md:my-0">{link.title}</Link>
                     ))}
             </div>
         </div>

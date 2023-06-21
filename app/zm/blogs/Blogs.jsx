@@ -7,9 +7,9 @@ const Blogs = () => {
     <section className="bg-white">
     <div className="container  max-w-6xl px-6 py-10 mx-auto pt-40">
         <div className="text-center">
-            <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">From the blog</h1>
+            <h1 className="text-3xl font-semibold text-gray-800 uppercase lg:text-6xl">From the <span className='text-orange-500'>blog</span></h1>
 
-            <p className="max-w-lg mx-auto mt-4 text-gray-500">
+            <p className="max-w-lg mx-auto text-gray-500 -mt-5">
                 Salami mustard spice tea fridge authentic Chinese food dish salt tasty liquor. Sweet savory foodtruck
                 pie.
             </p>
@@ -21,10 +21,10 @@ const Blogs = () => {
                     <div className="">
                         <Image src={blog.image} width={400} height={300} alt={blog.title} className="object-fit object-center w-full h-40 rounded-lg lg:h-44"/>
                     </div>
-                    <h1 className="mt-6 text-md font-semibold text-gray-800">
+                    <h1 className="mt-6 text-lg font-semibold text-orange-600">
                         {blog.title}
                     </h1>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                    <p className="text-sm font-medium">
                         {blog.description}
                     </p>
                     <Link href={`/zm/blogs/${blog.id}`} className="mt-4 flex items-center -mx-1 text-md font-semibold text-orange-600  capitalize transition-colors duration-300 transform hover:text-blue-600">
