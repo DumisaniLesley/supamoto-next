@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Matias Ohlson",
+        "position": "Co-Founder, CEO",
+        "image": "/team/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Marion Peterson",
+        "position": "Co-Founder, COO",
+        "image": "/team/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Abiola Lawal",
+        "position": "Operations Manager",
+        "image": "/team/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Penious ",
+        "position": "Accounts Manager",
+        "image": "/team/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Raymond",
+        "position": "Fintech Manager",
+        "image": "/team/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Mosho",
+        "position": "IT and R&D Manager",
+        "image": "/team/6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Towela N Mbewe",
+        "position": "Sales & Marketing Manager",
+        "image": "/team/7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Maclaud",
+        "position": "Call Center Jr Manager",
+        "image": "/team/8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Samuel Mulala",
+        "position": "Stocks Jr Manager",
+        "image": "/team/9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Conrad",
+        "position": "Production Manager",
+        "image": "/team/10.jpg"
+    }
+]

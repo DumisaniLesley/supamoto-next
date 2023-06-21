@@ -1,0 +1,29 @@
+{
+    "blogs": [
+      {
+        "id": "1",
+        "title": "Heza Grant Supports Production and Field Testing of Pathbreaking Gasifier Stove",
+        "description": "A US $15,000 grant from Heza’s Clean Flame Fund is enabling Swedish firm Emerging Cooking Solutions to produce 80 prototypes of its innovative SupaMoto pellet gasifier stove design for field testing in multiple African countries starting in May of 2022.",
+        "content_1": "ECS Founder and CEO Mattias Ohlson says “Heza’s grant comes at a critical time. It enables us to get prototypes into the hands of real-world users and see how it performs in the field. Feedback from these trials will be essential in fine tuning the design before we launch commercial production of the stove.” In laboratory testing conducted at the Aprovecho Research Center in December 2021, the design achieved the highest efficiency and lowest emissions ever recorded for a biomass fueled cook stove.",
+        "content_2": "Perhaps more importantly, the SupaMoto stove has several features that make it extremely convenient and easy to use. It can operate for up to three hours on a single load of fuel, suitable for cooking a wide range of dishes. Existing gasifiers on the market run out of fuel in less than 90 minutes, requiring cooks to reload and relight fuel in order to prepare long-simmering dishes. It has a much wider range of heat output than existing gasifiers, from a gentle 1 kW simmer to a robust 4 kW output at the highest fan setting—comparable to the output range of LPG and with considerably more power than ethanol stoves.[1] The dual burner design is housed in a stable support frame at a convenient height, offering safe operation and enabling cooks to prepare multiple dishes at once.",
+        "content_3": "Moreover, the stove offers very low cost cooking, because it is highly efficient (55% in recent lab testing) and needs very little fuel to operate. All of these features should greatly reduce the motivation for users to stack alongside the Supamoto with traditional polluting fuels like charcoal and firewood. This will be an important question to explore in field evaluations of user experience once the stove is in commercial use.",
+        "image": "/blogs/1.png",
+        "url": "https://www.hezaearth.org/post/heza-grant-supports-production-and-field-testing-of-pathbreaking-gasifier-stove"
+      },
+      {
+        "id": "2",
+        "title": "Independent survey on SupaMoto shows massive impact!",
+        "description": "An independent survey conducted by the Energy and Environment partnership Africa Trust Fund has shown massive impact. Below are few key extracts from the findings: Using the SupaMoto cookstove: The SupaMoto cookstove turns out to be a considerable...",
+        "image": "/blogs/2.png",
+        "url": "http://www.supamoto.co.zm/uncategorized/independent-survey-on-supamoto-shows-massive-impact/"
+      },
+      {
+        "id": "3",
+        "title": "The “Clean Cooking is…” campaign",
+        "description": "Clean Cooking Alliance Selects Portfolio Companies for Industry Acceleration Program SupaMoto has been selected as one of the 33 leading global enterprises to join the Clean Cooking Alliance Venture Catalyst program.A diverse portfolio of 33 companies, operating mainly in Africa, will be supported by the Clean Cooking Alliance’s new Venture Catalyst (VC) program... ",
+        "image": "/blogs/3.png",
+        "url": "http://www.supamoto.co.zm/uncategorized/clean-cooking-alliance-selects-portfolio-companies-for-industry-acceleration-program/"
+      }
+      
+    ]
+  }

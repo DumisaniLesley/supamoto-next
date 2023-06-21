@@ -1,0 +1,35 @@
+{
+    "companies": [
+      {
+        "id": 1,
+        "image": "/companies/01.png",
+        "url": "/"
+      },
+      {
+        "id": 2,
+        "image": "/companies/02.png",
+        "url": "/"
+      },
+      {
+        "id": 3,
+        "image": "/companies/03.png",
+        "url": "/"
+      },
+      {
+        "id": 4,
+        "image": "/companies/04.png",
+        "url": "/"
+      },
+      {
+        "id": 5,
+        "image": "/companies/05.png",
+        "url": "/"
+      },
+      {
+        "id": 6,
+        "image": "/companies/06.png",
+        "url": "/"
+      }
+    ]
+  }
+  
