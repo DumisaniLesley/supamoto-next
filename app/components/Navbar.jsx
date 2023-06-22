@@ -55,7 +55,11 @@ const Navbar = () => {
         >
           <div className="flex flex-col md:flex-row md:mx-6">
             {links.map((link) => (
-              <Link href={link.url} key={link.id} className="my-2 text-lg font-semibold text-orange-600 transition-colors duration-300 transform  hover:text-blue-600 md:mx-4 md:my-0">{link.title}</Link>
+              <Link 
+                href={link.url} 
+                key={link.id} 
+                onClick={toggleNavbar} 
+                className="my-2 text-lg font-semibold text-orange-600 transition-colors duration-300 transform  hover:text-blue-600 md:mx-4 md:my-0">{link.title}</Link>
             ))}
           </div>
         </div>
