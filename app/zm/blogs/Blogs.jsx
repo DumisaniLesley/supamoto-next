@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Blogs = () => {
   return (
     <section className="bg-white">
-    <div className="container  max-w-6xl px-6 py-10 mx-auto pt-40">
+    <div className="container max-w-6xl px-6 py-10 mx-auto pt-40">
         <div className="text-center">
             <h1 className="text-3xl font-semibold text-gray-800 uppercase lg:text-6xl">From the <span className='text-orange-500'>blog</span></h1>
 
