@@ -27,8 +27,9 @@ const Hero = () => {
                 <h1 className="text-3xl font-semibold text-white lg:text-6xl ">RENEWABLE HOME ENERGY <br /> <span className="text-orange-600 mt-20 mb-20">FOR EVERYONE!</span></h1>
                 <p className='mb-10'></p>
                 {links.map((link) => (
-                  <Link key={link.id} href={link.url} class="mt-10 text-center w-full px-5 mx-4 py-4 text-md font-semibold tracking-wider text-white uppercase transition-colors duration-300 transform bg-orange-600 rounded-md lg:w-auto hover:bg-blue-500">{link.title}</Link>
-
+                  <div key={link.id} className='mt-6 pb-5 flex-row'>
+                      <Link href={link.url} class="mb-5 text-md px-4 py-4 text-sm font-semibold tracking-wider text-white uppercase transition-colors duration-300 transform bg-orange-600 rounded-md lg:w-auto hover:bg-blue-500">{link.title}</Link>
+                  </div>
                 ))}
             </div>
         </div>

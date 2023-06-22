@@ -35,7 +35,7 @@ const Contact = () => {
     <div className="container max-w-6xl px-6 py-12 mx-auto pt-40">
         <div className='text-center'>
             <h1 className="mt-2 text-3xl font-semibold md:text-6xl uppercase">Get in <span className="text-orange-600">touch</span></h1>
-            <p className="-mt-5 text-gray-500">Our friendly team would love to hear from you.</p>
+            <p className="-mt-2 text-gray-500">Our friendly team would love to hear from you.</p>
         </div>
 
         <div className="grid grid-cols-1 gap-12 mt-20 lg:grid-cols-3">
