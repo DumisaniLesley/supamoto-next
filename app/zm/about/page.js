@@ -3,6 +3,7 @@ import Hero from './Hero'
 import Features from './Features'
 import Brands from './Brands'
 import Socials from './Socials'
+import Team from './Team'
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
       <Hero />
       <Features />
       <Brands />
+      <Team />
       <Socials />
     </>
   )
