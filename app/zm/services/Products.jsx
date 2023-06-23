@@ -54,25 +54,25 @@ const Products = () => {
         <div className="px-6 grid grid-cols-2 gap-2 sm:gap-8 mt-2 xl:mt-8 xl:gap-12 md:grid-cols-2 xl:grid-cols-4 justify-center items-center">
           <div className="p-5">
             <Image src={pellets5kg} width={100} height={50} alt="Logo" />
-            <h1 className="text-sm font-semibold text-gray-700 capitalize my-2">
+            <h1 className="text-center text-sm font-semibold text-gray-700 capitalize my-2">
               5Kg Pellet Bag
             </h1>
           </div>
           <div className="p-5">
             <Image src={pellets20kg} width={100} height={50} alt="Logo" />
-            <h1 className="text-sm font-semibold text-gray-700 capitalize my-2">
+            <h1 className="text-center text-sm font-semibold text-gray-700 capitalize my-2">
             20Kg Pellet Bag
             </h1>
           </div>
           <div className="p-5">
             <Image src={pellets30kg} width={100} height={50} alt="Logo" />
-            <h1 className="text-sm font-semibold text-gray-700 capitalize my-2">
+            <h1 className="text-center text-sm font-semibold text-gray-700 capitalize my-2">
             30Kg Pellet Bag
             </h1>
           </div>
           <div className="p-5">
             <Image src={pellets50kg} width={100} height={50} alt="Logo" />
-            <h1 className="text-sm font-semibold text-gray-700 capitalize my-2">
+            <h1 className="text-center text-sm font-semibold text-gray-700 capitalize my-2">
             50Kg Pellet Bag
             </h1>
           </div>
