@@ -21,23 +21,23 @@ const Stoves = () => {
                 </div>
             </div>
         </div>
-        <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-8 xl:gap-12 md:grid-cols-2 xl:grid-cols-3 justify-center items-center">
+        <div className="px-6 grid grid-cols-2 gap-2 sm:gap-8 mt-2 xl:mt-8 xl:gap-12 md:grid-cols-2 xl:grid-cols-3 justify-center items-center">
           <div className="p-5">
             <Image src={mimi} width={100} height={100} alt="Logo" />
-            <h1 className="text-sm font-semibold text-gray-700 capitalize 5Kg Pellet Bag">
+            <h1 className="text-sm font-semibold text-gray-700 capitalize">
              MimiMoto Stove
             </h1>
           </div>
           <div className="p-5">
             <Image src={gas} width={200} height={100} alt="Logo" />
-            <h1 className="text-sm font-semibold text-gray-700 capitalize 5Kg Pellet Bag">
-            MimiMoto Stove
+            <h1 className="text-sm font-semibold text-gray-700 capitalize">
+            SupaMoto Stove
             </h1>
           </div>
           <div className="p-5">
             <Image src={institutional} width={200} height={100} alt="Logo" />
-            <h1 className="text-sm font-semibold text-gray-700 capitalize 5Kg Pellet Bag">
-              MimiMoto Stove
+            <h1 className="text-sm font-semibold text-gray-700 capitalize">
+              Institutional Stove
             </h1>
           </div>
         </div>

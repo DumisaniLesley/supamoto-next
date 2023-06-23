@@ -51,7 +51,7 @@ const Products = () => {
         </div>
       </div>
       <div className="container max-w-6xl px-6 md:px-12 py-2 mx-auto">
-        <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-8 xl:gap-12 md:grid-cols-2 xl:grid-cols-4 justify-center items-center">
+        <div className="px-6 grid grid-cols-2 gap-2 sm:gap-8 mt-2 xl:mt-8 xl:gap-12 md:grid-cols-2 xl:grid-cols-4 justify-center items-center">
           <div className="p-5">
             <Image src={pellets5kg} width={100} height={50} alt="Logo" />
             <h1 className="text-sm font-semibold text-gray-700 capitalize my-2">
