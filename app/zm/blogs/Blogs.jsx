@@ -25,7 +25,7 @@ const Blogs = () => {
                         {blog.title}
                     </h2>
                     <p className="text-sm font-medium">
-                        {blog.description}
+                        {blog.description.split(' ').slice(0, 23).join(' ')}{blog.description.split(' ').length > 23 ? '...' : ''}
                     </p>
                     <div className="mt-4 flex items-center -mx-1 text-md font-semibold text-orange-600  capitalize transition-colors duration-300 transform hover:text-blue-600">
                         <span className="mx-1">read more</span>

@@ -74,7 +74,7 @@ const Navbar = () => {
                 href={link.url} 
                 key={link.id} 
                 onClick={toggleNavbar} 
-                className="my-2 font-normal text-orange-600 transition-colors duration-300 transform  hover:text-blue-600 md:mx-2 md:my-0">{link.title}</Link>
+                className="my-2 font-semibold text-orange-600 transition-colors duration-300 transform  hover:text-blue-600 md:mx-2 md:my-0">{link.title}</Link>
             ))}
           </div>
         </div>
