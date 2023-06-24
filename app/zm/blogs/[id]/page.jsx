@@ -19,7 +19,7 @@ const BlogPost = () => {
                       <img className="mr-4 w-16 h-16 rounded-full" src="https://flowbite.com/docs/images/people/profile-picture-2.jpg" alt="Jese Leos"/>
                       <div>
                           <a href="#" rel="author" className="text-xl font-bold text-gray-900">Jese Leos</a>
-                          <p className="text-base font-light text-gray-500">Graphic Designer, educator & CEO Flowbite</p>
+                          <p className="text-base font-light text-gray-500">Graphic Designer</p>
                           <p className="text-base font-light text-gray-500"><time pubdate datetime="2022-02-08" title="February 8th, 2022">Feb. 8, 2022</time></p>
                       </div>
                   </div>

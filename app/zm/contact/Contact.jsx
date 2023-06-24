@@ -5,9 +5,9 @@ const Contact = () => {
     <section className="bg-white">
         <div className="container max-w-6xl px-6 py-12 mx-auto pt-40">
             <div>
-                <h2 className="font-bold text-3xl md:text-5xl uppercase">Get In Touch</h2>
+                <h2 className="font-bold text-3xl md:text-5xl uppercase">Get In <span className='text-orange-600'>Touch</span></h2>
                 <h1 className="text-2xl font-semibold text-gray-800 md:text-3xl">Chat to our friendly team</h1>
-                <p className="mt-1 text-gray-500 ">We’d love to hear from you. Please fill out this form or shoot us an email.</p>
+                <p className="mt-1 text-gray-500 ">We’d love to hear from you. Drop us a Message or shoot us an email.</p>
             </div>
 
             <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
