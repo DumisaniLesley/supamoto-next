@@ -14,8 +14,8 @@ const CTA = () => {
                 explicabo laboriosam nam. A tempore totam ipsa nemo adipisci iusto!
             </p>
 
-            <div className="inline-flex w-full mt-6 sm:w-auto">
-                <Link href="/zm/contact" className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-orange-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <div className="flex justify-center items-center md:justify-start mt-4">
+                <Link href="/zm/contact" className="text-center w-full px-5 py-4 text-md font-semibold tracking-wider text-white uppercase transition-colors duration-300 transform bg-orange-600 rounded-md lg:w-auto hover:bg-blue-500">
                     Get In Touch
                 </Link>
             </div>
