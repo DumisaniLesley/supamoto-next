@@ -40,11 +40,11 @@ const Footer = () => {
         </div>
         
         <hr className="my-3 border-black md:my-10"/>
-        <div class="flex flex-col items-center justify-between sm:flex-row mt-10">
+        <div className="flex flex-col items-center justify-between sm:flex-row mt-10">
             <a href="#">
                 <Image src={Logo} width={100} height={50} alt="Logo" />
             </a>
-            <p class="mt-4 text-sm text-gray-500 sm:mt-0">© Copyright 2023. All Rights Reserved.</p>
+            <p className="mt-4 text-sm text-gray-500 sm:mt-0">© Copyright 2023. All Rights Reserved.</p>
         </div>
       </div>
   </footer>

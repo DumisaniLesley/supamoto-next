@@ -16,7 +16,7 @@ const Blogs = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
-            {data.blogs.map((blog)=>(
+            {data.map((blog)=>(
                 <Link href={`/zm/blogs/${blog.id}`} key={blog.id} className='mb-4'>
                     <div className="">
                         <Image src={blog.image} width={400} height={300} alt={blog.title} className="object-fit object-center w-full h-40 rounded-lg lg:h-44 mb-4"/>
