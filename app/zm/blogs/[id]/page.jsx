@@ -11,6 +11,10 @@ const Blog = () => {
   const pathname = usePathname()
   const id = pathname.substring(pathname.lastIndexOf('/')+1);
   const blog = blogsData.find((blog) => blog.id === id);
+  const blogs = blogsData.filter((blog) => blog.id !== id).slice(0, 3);
+
+  console.log(blogs);
+
 
 return (
   <main className="bg-white">
@@ -43,6 +47,41 @@ return (
           </Link>
         </article>
     </div>
+    <div className="bg-white">
+          <div className="container max-w-6xl px-6 py-10 mx-auto">
+              <div className="flex items-center justify-between">
+                  <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">recent posts </h1>
+              </div>
+              <hr className="my-8 border-gray-200"/>
+              <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+                {blogs.map((blog) => (
+                  <div key={blog.id}>
+                    <Image src={blog.image} width={640} height={360} alt={blog.title} className='object-cover object-center w-full h-54 rounded-lg lg:h-62'/>
+                      <div className="mt-8">
+                          <h1 className="mt-4 text-xl font-semibold text-gray-800">
+                            {blog.title.split(' ').slice(0, 4).join(' ')}{blog.title.split(' ').length > 4 ? '...' : ''}
+                          </h1>
+                          <p className="mt-2 text-gray-500">
+                            {blog.description.split(' ').slice(0, 23).join(' ')}{blog.description.split(' ').length > 23 ? '...' : ''}
+                          </p>
+                          <div className="flex items-center justify-between mt-4">
+                              <div>
+                                  <a href="#" className="text-md font-bold text-gray-700 hover:underline hover:text-gray-500">
+                                      Supamoto Admin
+                                  </a>
+                                  <p className="text-sm text-gray-500">{blog.date}</p>
+                              </div>
+                              <Link href={`/zm/blogs/${blog.id}`}className="inline-block text-orange-600 hover:text-blue-400">Read more</Link>
+                          </div>
+                      </div>
+                  </div>
+                ))}
+              </div>
+          </div>
+          <div className='text-center'>
+          <Link href="/zm/blogs" className="font-bold text-xl text-orange-600 tracking-wider">All Blogs</Link>
+          </div>
+      </div>
   </main>
   );
 };
