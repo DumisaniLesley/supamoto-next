@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Matias Ohlson",
+        "position": "Co-Founder, CEO",
+        "image": "/testimonials/1.jpg",
+        "text": "Matias is a serial entrepreneur with a background in engineering and product design. He has worked in the tech industry for over 10 years, and has a passion for creating great products and services that impact people's lives. He is also a mentor and advisor to several startups and accelerators around the world."
+    },
+    {
+        "id": 2,
+        "name": "Marion Peterson",
+        "position": "Co-Founder, COO",
+        "image": "/testimonials/2.jpg",
+        "text": "Marion is a serial entrepreneur with a background in engineering and product design. He has worked in the tech industry for over 10 years, and has a passion for creating great products and services that impact people's lives. He is also a mentor and advisor to several startups and accelerators around the world."
+    },
+    {
+        "id": 3,
+        "name": "Abiola Lawal",
+        "position": "Operations Manager",
+        "image": "/testimonials/3.jpg",
+        "text": "Abiola is a serial entrepreneur with a background in engineering and product design. He has worked in the tech industry for over 10 years, and has a passion for creating great products and services that impact people's lives. He is also a mentor and advisor to several startups and accelerators around the world."
+    },
+    {
+        "id": 4,
+        "name": "Penious ",
+        "position": "Accounts Manager",
+        "image": "/testimonials/4.jpg",
+        "text": "Penious is a serial entrepreneur with a background in engineering and product design. He has worked in the tech industry for over 10 years, and has a passion for creating great products and services that impact people's lives. He is also a mentor and advisor to several startups and accelerators around the world."
+    }
+]
