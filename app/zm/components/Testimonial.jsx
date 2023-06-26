@@ -31,7 +31,7 @@ const Testimonial = () => {
                             alt="Testimonial 1"
                             width={700}
                             height={700}
-                            className="object-contain rounded-full sm:rounded-xl object-center lg:w-1/2 lg:mx-6 w-60 h-50 lg:h-[32rem]"
+                            className="object-contain rounded-full sm:rounded-xl object-center lg:w-1/2 lg:mx-6 w-40 h-40 lg:h-[32rem]"
                             />
                         </div>
 
