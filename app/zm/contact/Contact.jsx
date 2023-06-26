@@ -18,15 +18,15 @@ const Contact = () => {
                         </div>
                         <div className="mt-4 text-base font-semibold text-gray-800 flex">
                             <FaPhone size={35} color='rgb(234 88 12)'/>
-                            <span className='ml-6'>+260 211 295 117</span>
+                            <a href='tel:+260211295117' className='ml-6'>+260 211 295 117</a>
                         </div>
                         <div className="mt-4 text-base font-semibold text-gray-800 flex">
                             <FaMobile size={35} color='rgb(234 88 12)'/>
-                            <span className='ml-6'>2233(MTN & Airtel)</span>
+                            <a href='tel:2233' className='ml-6'>2233(MTN & Airtel)</a>
                         </div>
                         <div className="mt-4 text-base font-semibold text-gray-800 flex">
                            <FaPaperPlane size={35} color='rgb(234 88 12)'/>
-                            <span className='ml-6'>info@supamoto.co.zm</span>
+                            <a href='mailto:info@supamoto.co.zm' className='ml-6'>info@supamoto.co.zm</a>
                         </div>
                 </div>
 
