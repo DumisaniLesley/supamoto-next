@@ -1,10 +1,11 @@
+import FeedbackForm from '@/app/components/FeedBackForm'
 import React from 'react'
 import { FaAddressCard, FaPhone, FaMobile, FaPaperPlane } from 'react-icons/fa'
 const Contact = () => {
   return (
     <section className='bg-white'>
         <div className='container max-w-6xl px-6 py-12 mx-auto pt-40'>
-            <div>
+            <div className='text-center'>
                 <h2 className='font-bold text-3xl md:text-5xl uppercase'>Get In <span className='text-orange-600'>Touch</span></h2>
                 <h1 className='text-2xl font-semibold text-gray-800 md:text-3xl'>Chat to our friendly team</h1>
                 <p className='mt-1 text-gray-500 '>We’d love to hear from you. Drop us a Message or shoot us an email.</p>
@@ -31,7 +32,7 @@ const Contact = () => {
                 </div>
 
                 <div className='p-4 py-6 rounded-lg shadow-xl md:p-8'>
-                    <form>
+                    {/* <form>
                         <div className='-mx-2 md:items-center md:flex'>
                             <div className='flex-1 px-2'>
                                 <label className='block mb-2 text-sm text-gray-600 '>First Name*</label>
@@ -57,7 +58,8 @@ const Contact = () => {
                         <button className='w-full px-6 py-4 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-orange-600 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50'>
                             Send message
                         </button>
-                    </form>
+                    </form> */}
+                    <FeedbackForm />
                 </div>
             </div>
         </div>
