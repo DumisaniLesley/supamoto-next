@@ -23,8 +23,8 @@ const Footer = () => {
                 <p className='font-bold '>Terms & Conditions</p>
 
                 <div className='flex flex-col items-start mt-5 space-y-2'>
-                    <Link href='/zm/terms' className='text-gray-600 transition-colors duration-300 hover:text-orange-500'>Terms</Link>
-                    <Link href='/zm/privacy' className='text-gray-600 transition-colors duration-300 hover:text-orange-500'>Privacy Policy</Link>
+                    <Link href='' className='text-gray-600 transition-colors duration-300 hover:text-orange-500'>Terms</Link>
+                    <Link href='' className='text-gray-600 transition-colors duration-300 hover:text-orange-500'>Privacy Policy</Link>
                 </div>
             </div>
 
