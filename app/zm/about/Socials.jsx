@@ -1,4 +1,5 @@
-import React from 'react'
+import Link from 'next/link';
+import { FaFacebook, FaLinkedin, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 const Socials = () => {
   return (
@@ -8,29 +9,29 @@ const Socials = () => {
 
         <div className='grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5'>
             <div className='flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl'>
-                <span className='inline-block p-3 text-blue-500 bg-blue-100 rounded-full '>
-                    Facebook
-                </span>
+                <Link href="" className='inline-block p-3 text-blue-500 bg-blue-100 rounded-full '>
+                    <FaFacebook className='text-blue-500' size={32} />
+                </Link>
             </div>
             <div className='flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl'>
-                <span className='inline-block p-3 text-blue-500 bg-blue-100 rounded-full '>
-                    Linkedin
-                </span>
+                <Link href="" className='inline-block p-3 text-blue-500 bg-blue-100 rounded-full '>
+                <FaLinkedin className='text-blue-500' size={32} />
+                </Link>
             </div>
             <div className='flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl'>
-                <span className='inline-block p-3 text-blue-500 bg-blue-100 rounded-full '>
-                    Twitter
-                </span>
+                <Link href="" className='inline-block p-3 text-blue-500 bg-blue-100 rounded-full '>
+                <FaTwitter className='text-blue-500' size={32} />
+                </Link>
             </div>
             <div className='flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl'>
-                <span className='inline-block p-3 text-blue-500 bg-blue-100 rounded-full '>
-                    Instagram
-                </span>
+                <Link href="" className='inline-block p-3 text-blue-500 bg-blue-100 rounded-full '>
+                <FaInstagram className='text-blue-500' size={32} />
+                </Link>
             </div>
             <div className='flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl'>
-                <span className='inline-block p-3 text-blue-500 bg-blue-100 rounded-full '>
-                    YouTube
-                </span>
+                <Link href="" className='inline-block p-3 text-blue-500 bg-blue-100 rounded-full '>
+                <FaYoutube className='text-red-600' size={32} />
+                </Link>
             </div>
         </div>
     </div>
