@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import Logo from '@/public/supamoto.png';
-import { BiMenuAltRight } from 'react-icons/bi'
+import { BiMenu, BiMenuAltRight } from 'react-icons/bi'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +43,7 @@ const Navbar = () => {
             className='block md:hidden'
             onClick={toggleNavbar}
           >
-            <BiMenuAltRight className='w-12 h-12 fill-current text-gray-900' />
+            <BiMenu className='w-12 h-12 fill-current text-gray-900' />
           </button>
         </div>
 

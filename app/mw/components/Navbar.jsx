@@ -17,22 +17,22 @@ const Navbar = () => {
     {
         id: 1,
         title: 'Home',
-        url: '/mz',
+        url: '/mw',
     },
     {
         id: 2,
         title: 'Who We Are',
-        url: '/mz/about',
+        url: '/mw/about',
     },
     {
         id: 3,
         title: 'What We Do',
-        url: '/mz/services',
+        url: '/mw/services',
     },
     {
         id: 6,
         title: 'Contact',
-        url: '/mz/contact',
+        url: '/mw/contact',
     }
 ]
 
