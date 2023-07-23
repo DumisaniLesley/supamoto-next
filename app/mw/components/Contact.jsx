@@ -2,7 +2,6 @@ import FeedbackForm from '@/app/components/FeedBackForm'
 import React from 'react'
 import { FaAddressCard, FaPhone, FaMobile, FaPaperPlane } from 'react-icons/fa'
 
-
 const Contact = () => {
   return (
     <section className='bg-white'>
@@ -17,7 +16,7 @@ const Contact = () => {
                 <div className='flex-colmt-2 sm:mt-40'>
                         <div className='mt-4 text-base font-semibold text-gray-800 flex'>
                             <FaAddressCard size={35} color='rgb(234 88 12)'/>
-                            <span className='ml-6'>xxxxxxxx, Lilongwe</span>
+                            <span className='ml-6'>9160 Lunsemfwa road, Kalundu, Lusaka.</span>
                         </div>
                         <div className='mt-4 text-base font-semibold text-gray-800 flex'>
                             <FaPhone size={35} color='rgb(234 88 12)'/>
@@ -29,7 +28,7 @@ const Contact = () => {
                         </div>
                         <div className='mt-4 text-base font-semibold text-gray-800 flex'>
                            <FaPaperPlane size={35} color='rgb(234 88 12)'/>
-                            <a href='mailto:info@supamoto.co.zm' className='ml-6'>infomw@supamoto.co.zm</a>
+                            <a href='mailto:info@supamoto.co.zm' className='ml-6'>info@supamoto.co.zm</a>
                         </div>
                 </div>
 
