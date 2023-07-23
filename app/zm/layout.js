@@ -4,8 +4,6 @@ import './../globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import FreshworksWidget from '../components/FreshworksWidget'
-import { useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,12 +13,6 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-
-  const [showWidget, setShowWidget] = useState(false);
-
-  const toggleWidget = () => {
-    setShowWidget(!showWidget);
-  };
 
   return (
     <html lang="en">
