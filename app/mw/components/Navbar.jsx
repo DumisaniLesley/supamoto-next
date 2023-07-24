@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 import Logo from '@/public/supamoto.png';
 import { BiMenu, BiMenuAltRight } from 'react-icons/bi'
@@ -22,17 +23,17 @@ const Navbar = () => {
     {
         id: 2,
         title: 'Who We Are',
-        url: '/mw/about',
+        url: '#about',
     },
     {
         id: 3,
         title: 'What We Do',
-        url: '/mw/services',
+        url: '#products',
     },
     {
         id: 6,
         title: 'Contact',
-        url: '/mw/contact',
+        url: '#contact',
     }
 ]
 
