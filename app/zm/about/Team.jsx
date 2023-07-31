@@ -8,7 +8,7 @@ const Team = () => {
         <h1 className='text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl'>Meet Our <span className='text-orange-600 uppercase'>Executive Team.</span></h1>
 
         <p className='max-w-3xl mx-auto my-6 text-center text-gray-500'>
-        At Supamoto, we take pride in being at the forefront of innovation and excellence in the automotive industry. Our success is driven by a team of visionary leaders, each with a passion for revolutionizing the way people experience motorcycling. Meet the brilliant minds behind Supamoto's continued growth and success, dedicated to creating exceptional products and delivering unmatched customer satisfaction.
+        At Supamoto, we take pride in being at the forefront of innovation and excellence in the automotive industry. Our success is driven by a team of visionary leaders, each with a passion for revolutionizing the way people experience motorcycling. Meet the brilliant minds behind Supamotos continued growth and success, dedicated to creating exceptional products and delivering unmatched customer satisfaction.
         </p>
 
         <div className='grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4'>
