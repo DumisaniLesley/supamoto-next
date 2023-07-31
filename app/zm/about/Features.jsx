@@ -22,7 +22,7 @@ const Features = () => {
                     <Image src={distribution} width={70} height={40} alt='icon'/>
                 </div>
                 <h1 className='mt-4 text-xl font-bold text-gray-800 text-center'>Pellet Deliveries</h1>
-                <p className='mt-2 text-gray-500 text-center'>Simply place your order, and we'll take care of the rest, delivering the required amount of pellets right to your doorstep.</p>
+                <p className='mt-2 text-gray-500 text-center'>Simply place your order, and we will take care of the rest, delivering the required amount of pellets right to your doorstep.</p>
             </div>
             <div>
                 <div className='flex items-center justify-center'>

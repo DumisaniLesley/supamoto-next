@@ -9,9 +9,8 @@ const Blogs = () => {
         <div className='text-center'>
             <h1 className='text-3xl font-semibold text-gray-800 uppercase lg:text-6xl'>From the <span className='text-orange-500'>blog</span></h1>
 
-            <p className='max-w-lg mx-auto text-gray-500 -mt-2'>
-                Salami mustard spice tea fridge authentic Chinese food dish salt tasty liquor. Sweet savory foodtruck
-                pie.
+            <p className='max-w-xl mx-auto text-gray-500 mt-2'>
+                Get the latest stories and articles from SupaMoto and Emerging Cooking Solution.
             </p>
         </div>
 
