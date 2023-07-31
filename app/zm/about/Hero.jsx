@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import heroImage from '@/public/thinking.svg';
+import heroImage from '@/public/analysis.svg';
 import Image from 'next/image';
 
 const Hero = () => {
