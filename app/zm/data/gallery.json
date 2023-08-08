@@ -37,10 +37,42 @@
     },
     {
         "id": 10,
-        "image": "/gallery/10.png"
+        "image": "/gallery/10.jpg"
     },
     {
         "id": 11,
-        "image": "/gallery/11.png"
+        "image": "/gallery/11.jpg"
+    },
+    {
+        "id": 12,
+        "image": "/gallery/12.jpg"
+    },
+    {
+        "id": 13,
+        "image": "/gallery/13.jpg"
+    },
+    {
+        "id": 14,
+        "image": "/gallery/14.jpg"
     }
+    ,
+    {
+        "id": 15,
+        "image": "/gallery/15.jpg"
+    }
+    ,
+    {
+        "id": 16,
+        "image": "/gallery/16.jpg"
+    }
+    ,
+    {
+        "id": 17,
+        "image": "/gallery/17.jpg"
+    },
+    {
+        "id": 18,
+        "image": "/gallery/18.jpg"
+    }
+    
 ]
