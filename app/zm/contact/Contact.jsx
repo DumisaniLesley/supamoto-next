@@ -17,7 +17,7 @@ const Contact = () => {
                 <div className='flex-colmt-2 sm:mt-40'>
                         <div className='mt-4 text-base font-semibold text-gray-800 flex'>
                             <FaAddressCard size={35} color='rgb(234 88 12)'/>
-                            <span className='ml-6'>xxxxxxxx, Lilongwe</span>
+                            <span className='ml-6'>9160 Lunsemfwa road, Kalundu, Lusaka.</span>
                         </div>
                         <div className='mt-4 text-base font-semibold text-gray-800 flex'>
                             <FaPhone size={35} color='rgb(234 88 12)'/>
