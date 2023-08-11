@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-// import hero from '../../../public/hero.svg'
 import hero from '@/public/hero.svg'
 
 const Hero = () => {

@@ -5,7 +5,6 @@ import Image from 'next/image';
 import data from '../data/gallery.json';
 
 const Gallery = () => {
-    console.log(data)
   return (
     <section className='bg-white'>
     <div className='container max-w-6xl px-6 py-10 mx-auto pt-40'>
